@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #212121;
+  overflow-x: hidden;
+}
+.container{
+  background-color: #ffff;
+  min-height: 100vh;
+}
+.header-light, .header-dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "InterLight";
+  padding-top: 2vw;
+}
+.header-light a, .header-dark a{
+  text-decoration: none;
+  font-size: 1.5em;
+  opacity: 80%;
+}
+.header-light a{
+  color: #000;
+}
+.header-dark a{
+  color: #ffffff;
+}
+.header-right a{
+  margin: 3vw;
+}
+.header-left a,
+.header-right a:first-child,
+.header-right a:last-child {
+  margin: 0 2vw;
+}
+.order_container{
+  background-color: rgb(114, 110, 110);
+  min-height: 42vw;
+  margin: 2vw;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: "InterRegular";
+}
+.order_description {
+  position: absolute;
+  right: 1vw;
+  bottom: 2vw;
+  margin: 0;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+.order_description p {
+  letter-spacing: 0.1em;
+  color: #ffff;
+  font-size: 3.8vw;
+  line-height: 1.2;
+}
+.order-button {
+  margin: 1vw 0.5vw 0 0;
+  color: #ffff;
+  font-size: 1.3vw;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.8vw 1.5vw;
+  border: 0.15vw solid #ffff;
+  background-color: #ffffff2f;
+  border-radius: 50px;
+  margin-left: auto; 
+  transition: all 0.2s ease;
+}
+.order-button:hover {
+  background-color: #ffffff1c;
+}
+.page_title, .page_title_short {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.page_title h2{
+  font-family: "InterLight";
+  text-align: justify;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+.page_title h2 {
+  letter-spacing: 0.23em;
+}
+.creators_title, .shop_title{
+  color: #000;
+}
+.events_title, .projects_title{
+  color: #ffff;
+}
+.creators_title{
+  font-size: 10vw;
+}
+.projects_title{
+  font-size: 10vw;
+}
+.events_title{
+  font-size: 12vw;
+}
+.shop_title{
+  font-size: 11.8vw;
+}
+.page404{
+  min-height: 100vh;
+  background-image: url('../images/404.svg');
+  background-size: 100%;
+}
+.text_404{
+  color: white;
+  font-family: "InterLight";
+  display: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 8vw;
+}
+.text_404 p{
+  opacity: 80%;
+  line-height: 1.2;
+  font-size: 2em;
+}
+.text_404 a{
+  opacity: 80%;
+  font-size: 2em;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  color: #ffffff;
+}
+.text_404 h2{
+  padding: 2vw 0 2vw 0;
+  font-size: 18vw;
+}
+.burger-menu {
+  display: none;
+  cursor: pointer;
+}
+.burger-icon {
+  margin: 0 2vw;
+}
+.mobile-menu {
+  display: none;
+}
+

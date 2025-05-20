@@ -1,0 +1,34 @@
+/* Смена страниц в хедере на бургер-меню */
+@media only screen and (max-width: 900px) {
+  .header-right {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .mobile-menu.active {
+    display: flex;
+  }
+}
+/* Адаптив под телефон */
+@media only screen and (max-width: 768px) {
+  .header-light a, .header-dark a{
+    font-size: 2em;
+  }
+  .order_container{
+    min-height: 84vw;
+    margin: 1.5vw 0 0 0;
+    background-image: url("../images/bg.png");
+    background-position: 80%;
+  }
+  .order_description p {
+    font-size: 6vw;
+  }
+  .order-button {
+    margin: 2vw 0.5vw 3vw 0;
+    margin-left: auto;
+    font-size: 4vw;
+    padding: 2vw 5vw;
+    border: 0.25vw solid #ffff;
+  }
+}

@@ -1,0 +1,16 @@
+@font-face {
+    src: url("../fonts/Inter/Inter-Light.ttf") format("truetype"); 
+    font-family: "InterLight";
+} 
+@font-face {
+    src: url("../fonts/Inter/Inter-LightItalic.ttf") format("truetype"); 
+    font-family: "InterLightItalic";
+} 
+@font-face {
+    src: url("../fonts/Inter/Inter-Medium.ttf") format("truetype"); 
+    font-family: "Inter-Medium";
+} 
+@font-face {
+    src: url("../fonts/Inter/Inter-Regular.ttf") format("truetype"); 
+    font-family: "InterRegular";
+} 
