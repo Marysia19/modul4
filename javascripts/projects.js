@@ -8,7 +8,7 @@ if (textElement && wrapper && projectsTitle && avataContent) {
     avataContent.style.transition = 'opacity 0.5s ease, visibility 0.5s ease';
     // Добавляем обработчик клика
     textElement.addEventListener('click', function() {
-        if (wrapper.style.transform.includes('-54vh')) {
+        if (wrapper.style.transform.includes('-55vh')) {
             // Опускание папки
             wrapper.style.transform = 'translateY(0)';
             wrapper.style.filter = '';
@@ -17,7 +17,7 @@ if (textElement && wrapper && projectsTitle && avataContent) {
             avataContent.style.visibility = 'hidden';
         } else {
             // Поднятие папки
-            wrapper.style.transform = 'translateY(-54vh)';
+            wrapper.style.transform = 'translateY(-55vh)';
             wrapper.style.filter = 'contrast(0.92)';
             projectsTitle.style.opacity = '10%';
             avataContent.style.opacity = '1';

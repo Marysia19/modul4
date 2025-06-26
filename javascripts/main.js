@@ -25,7 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const popupTrigger = document.querySelector('.footer-form-image img');
     const popupOverlay = document.getElementById('popupOverlay');
     const submitBtn = document.querySelector('.submit-btn');
-    
+    const closePopup = document.getElementById('closePopup');
+
     if (popupTrigger && popupOverlay) {
         // Открываем попап при клике на картинку
         popupTrigger.addEventListener('click', function() {
@@ -38,6 +39,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 popupOverlay.style.display = 'none';
             }
         });
+        
+        // Закрываем попап при клике на крестик
+        if (closePopup) {
+            closePopup.addEventListener('click', function() {
+                popupOverlay.style.display = 'none';
+            });
+        }
     }
     if (submitBtn && popupOverlay) {
         // Закрываем попап при клике на кнопку "Отправить"

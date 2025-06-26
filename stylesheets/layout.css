@@ -25,7 +25,7 @@ body {
 }
 .header-light a, .header-dark a{
   text-decoration: none;
-  font-size: 26px;
+  font-size: 24px;
 }
 .header-light a{
   color: #212121;
@@ -217,6 +217,19 @@ body {
   z-index: 100;
   justify-content: center;
   align-items: center;
+}
+.close-popup {
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.close-popup:hover {
+  transform: scale(1.05);
+}
+.close-popup img {
+  width: 3vw;
 }
 .popup-content {
   width: 50%;
@@ -774,7 +787,6 @@ body {
   justify-content:space-between;
 }
 .creators-container .block {
-  cursor: pointer;
   border: 0.15vw solid black;
   background-color: white;
   overflow: hidden;
